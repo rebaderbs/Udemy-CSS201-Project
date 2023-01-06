@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebecca CSS 201 Project</title>
+
+    <link rel="stylesheet" href="CSS201ProjectFinal.css">
+
+    <style>
+        @media (max-width: 640px)   {
+            .hero, .contentwhole    {
+                flex-basis: 100%;
+                border-right: 0;
+                max-height: 500px;
+            }
+            img {
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 1050px)   {
+            .navigation {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="sitewhole">
+    <div id="container">
+        <div class="navigation">
+            <div class="navcontent">
+                <img class="nyclogo" src="https://www.clipartmax.com/png/full/54-542690_new-york-city-png-skyline-transparent-new-york-city-new-york-skyline.png">
+                <ul class="navlist">
+                    <li><a href="https://www.nycgo.com" target="_blank">NYC Tourism</a></li>
+                    <li><a href="https://www.undercovertourist.com/blog/tips-visiting-nyc-with-kids/" target="_blank">NYC with Kids</a></li>
+                    <li><a href="https://weather.com/weather/hourbyhour/l/Manhattan+NY?canonicalCityId=a701ee19c4ab71bbbe2f6ba2fe8c250913883e5ae9b8eee8b54f8efbdb3eec03" target="_blank">NYC Weather</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="main">
+                <h1 class="h1title">Thinking of visiting New York City?</h1>
+                <div class="scroll">scroll down for reasons to go</div>
+                <span class="arrow">&#8595;</span>
+            </div>
+    </div>
+    </div>  
+
+    <div class="contentwhole">
+        <div class="contentwrapper"> 
+            <div class="content">
+                <div class="grid">
+                    <div class="text">
+                        <div class="count">01</div>
+                        <h2 class="head">The Food</h2>
+                        <p>What are you in the mood to eat? No matter what you feel like, NYC has hundreds of eateries to choose from - many of which are great for kids. In the mood for peking duck? Head to Chinatown. Fancy a lobster roll? The pier next to DUMBO is the perfect spot to grab take-out and watch the boats pass by. With pizza-by-the-slice available in most areas of Manhattan, you can have a quick and cheap meal anywhere.</p>
+                        <a class="link" href="https://www.tripadvisor.com/Restaurants-g60763-New_York_City_New_York.html" target="_blank">
+                        <div class="pbutton">Find Food</div>
+                        </a>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1526832587055-d5a03d74c471?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1319&q=80" alt="yummy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contentwrapper">
+            <div class="content">
+                <div class="grid">
+                    <div class="text">
+                        <div class="count">02</div>
+                        <h2 class="head">Family Friendly</h2>
+                        <p>NYC is packed full of family fun: picnics and carriage rides in Central Park, hugging Elmo in Times Square, tons of playgrounds, toy and book stores, biking on Governors Island, and lots of waterfront areas to explore. Many activities are low cost or even free for young children. No matter how old your child(ren) is or what they are interested in, NYC is a great place to visit for every member of the family.</p>
+                        <a class="link" href="https://www.tripadvisor.com/Attractions-g60763-Activities-a_allAttractions.true-zft11306-New_York_City_New_York.html" target="_blank">
+                        <div class="pbutton">Family Activities</div>
+                        </a>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1581311623578-45b147738f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="fun">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contentwrapper">
+            <div class="content">
+                <div class="grid">
+                    <div class="text">
+                        <div class="count">03</div>
+                        <h2 class="head">Walkability & Transit</h2>
+                        <p>New York City is the 2nd most walkable city in the U.S. That, combined with its efficient transit system, makes getting around NYC is incredibly easy! Many main attractions are less than 10 minutes from a subway station.</p>
+                        <a class="link" href="https://new.mta.info/agency/new-york-city-transit" target="_blank">
+                        <div class="pbutton">MTA Site</div>
+                        </a>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1622749934158-87f2d955dba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80" alt="walk">
+                    </div>
+                </div>
+            </div>
+        </div>
+</div> 
+</div> 
+</body>
+</html>
